@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ParseDatFileDialog</class>
+ <widget class="QDialog" name="ParseDatFileDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>事后处理</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QComboBox" name="comboBoxSetups">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Setup选择</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditDatFilePath">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>50</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>E:/wmf/qtProject/AttixDeocder/build/release/data/SBD/TFFX-FH.dat</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBrowserDatFilePath">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>50</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>浏览...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dat文件</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>跳过文件开头</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>140</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>字节</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonStart">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>220</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonClose">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>220</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>541</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>结果文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBrowserResultFilePath">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>浏览...</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditResultFilePath">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>100</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>E:/wmf/qtProject/AttixDeocder/build/release/results/Y3Y4</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditSkipHeadBytes">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>140</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

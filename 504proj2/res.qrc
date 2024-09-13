@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/bk.jpeg</file>
+        <file>image/blue.jpg</file>
+        <file>image/blue2.jpg</file>
+        <file>image/FFFFFFFF.jpg</file>
+        <file>image/frame2.jpg</file>
+        <file>image/frame3.png</file>
+        <file>image/greenlight.png</file>
+        <file>image/kuang.jpg</file>
+        <file>image/kuang2.png</file>
+        <file>image/kuangnew.png</file>
+        <file>image/main.jpg</file>
+        <file>image/widgetbackground.jpg</file>
+        <file>image/wifi.jpeg</file>
+        <file>image/wifi.png</file>
+        <file>image/add.png</file>
+        <file>image/delete.png</file>
+        <file>image/search.png</file>
+        <file>image/refresh.png</file>
+        <file>image/edit.png</file>
+        <file>image/ok.png</file>
+        <file>image/user.png</file>
+        <file>image/redlight.png</file>
+        <file>image/yellowlight.png</file>
+        <file>image/loginuser.png</file>
+        <file>image/loginpass.png</file>
+        <file>image/lock.svg</file>
+        <file>image/loginpass.svg</file>
+        <file>image/loginuser.svg</file>
+        <file>image/loginuser2.svg</file>
+        <file>image/loginpass2.svg</file>
+        <file>image/search.svg</file>
+        <file>image/download.svg</file>
+        <file>image/export.png</file>
+        <file>image/import.png</file>
+        <file>image/abort.png</file>
+        <file>image/begin.png</file>
+        <file>image/upload.svg</file>
+        <file>image/back.svg</file>
+    </qresource>
+</RCC>

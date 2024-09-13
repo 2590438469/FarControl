@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Configs>
+    <grillePath>E:/qtproj/504proj/格栅文件</grillePath>
+    <datPath>E:/qtproj/504proj/遥测文件</datPath>
+    <oxPath>E:/qtproj/504proj/遥测文件</oxPath>
+    <headPath>E:/qtproj/504proj/事后处理文件</headPath>
+    <backupPath>E:/qtproj/504proj/备份文件</backupPath>
+    <grilleTcpPort>9061</grilleTcpPort>
+    <displayTcpPort>9062</displayTcpPort>
+</Configs>

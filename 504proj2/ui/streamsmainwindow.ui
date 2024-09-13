@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StreamsMainWindow</class>
+ <widget class="QMainWindow" name="StreamsMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>综合数据处理软件</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1026</width>
+         <height>521</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBoxStreams">
+          <property name="title">
+           <string>数据流状态</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetMinimumSize</enum>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButtonAddStream">
+        <property name="text">
+         <string>增加流</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1040</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>数据流</string>
+    </property>
+    <addaction name="actionAddDataFlow"/>
+    <addaction name="actionOpenDataSourceConfigDialog"/>
+    <addaction name="actionOpenFrameSenderConfigDialog"/>
+   </widget>
+   <widget class="QMenu" name="menuSetup">
+    <property name="title">
+     <string>Setups</string>
+    </property>
+    <addaction name="actionViewSetups"/>
+    <addaction name="actionParseDatFile"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>模块</string>
+    </property>
+    <addaction name="actionViewModules"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_3"/>
+   <addaction name="menuSetup"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpenDataSourceConfigDialog">
+   <property name="text">
+    <string>配置数据源...</string>
+   </property>
+  </action>
+  <action name="actionViewSetups">
+   <property name="text">
+    <string>查看...</string>
+   </property>
+  </action>
+  <action name="actionParseDatFile">
+   <property name="text">
+    <string>事后处理...</string>
+   </property>
+  </action>
+  <action name="actionViewModules">
+   <property name="text">
+    <string>查看...</string>
+   </property>
+  </action>
+  <action name="actionAddDataFlow">
+   <property name="text">
+    <string>增加流</string>
+   </property>
+  </action>
+  <action name="actionOpenFrameSenderConfigDialog">
+   <property name="text">
+    <string>配置客户端...</string>
+   </property>
+   <property name="toolTip">
+    <string>配置客户端</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

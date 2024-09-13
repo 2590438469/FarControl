@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Configs>
+    <centerip>127.0.0.1</centerip>
+    <centerudpport>9001</centerudpport>
+    <grilleTcpPort>9061</grilleTcpPort>
+    <displayTcpPort>9062</displayTcpPort>
+    <genMuLu>C:/Users/user/Desktop/测试目录</genMuLu>
+    <geShanMulu>1<geShanMulu/>
+    <displayMulu>1</displayMulu>
+    <customData>C:/Users/user/Desktop/att2/AttixDecoder.exe</customData>
+    <waitTime>1</waitTime>
+</Configs>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Configs>
+  <Types>
+    <type>
+      <name>类型1</name>
+    </type>
+    <type>
+      <name>类型2</name>
+    </type>
+  </Types>
+  <centerip>127.0.0.1</centerip>
+  <centerudpport>9001</centerudpport>
+  <grilleTcpPort>9061</grilleTcpPort>
+  <displayTcpPort>9062</displayTcpPort>
+  <grillePath>C:/Users/user/Desktop/客户端格栅目录</grillePath>
+  <dispalyPath>C:/Users/user/Desktop/客户端显示画面目录</dispalyPath>	
+</Configs>

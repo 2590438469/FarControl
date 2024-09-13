@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UdpEndpointDialog</class>
+ <widget class="QDialog" name="UdpEndpointDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>655</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>网络配置</string>
+  </property>
+  <widget class="QComboBox" name="comboBoxRecvInterface">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>接收网卡</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAddDataSource">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>增加数据源</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCanceled">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidgetDataSources">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>541</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonSaveDataSources">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
